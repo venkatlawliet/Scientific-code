@@ -12,7 +12,7 @@ from google.genai import types
 
 from config import MAX_RETRIES, RETRY_DELAYS
 
-_FALLBACK_KEY = "AIzaSyAoT3bvLuhHqnWJ52Nftz6ABidvd1ZQ_nI"
+_FALLBACK_KEY = "AI_Masked"
 
 
 def _get_api_key(api_key: str | None = None) -> str:
